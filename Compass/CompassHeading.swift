@@ -9,7 +9,6 @@
 import Foundation
 import Combine
 import CoreLocation
-import CoreMotion
 
 class CompassHeading: NSObject, ObservableObject, CLLocationManagerDelegate {
     var objectWillChange = PassthroughSubject<Void, Never>()
